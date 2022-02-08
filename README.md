@@ -1,6 +1,12 @@
 # Windows_service
 This is a simple windows sevice that selects details from table 1 and insert the sames details in table 2.
 
+How to Install
+1.Run powershell as administrator
+2.New-Service -Name "windows_service1" -BinaryPathName C:\Users\Kahwai\source\repos\Windows_service\Windows_service\bin\Debug\Windows_service.exe
+
+
+
 table 1: Company_Profile
 
 USE Windowss
