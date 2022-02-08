@@ -1,9 +1,9 @@
 # Windows_service
 This is a simple windows sevice that selects details from table 1 and insert the sames details in table 2.
 
-table 1: [Windowss].[dbo].[Company_Profile]
+table 1: Company_Profile
 
-USE [Windowss]
+USE Windowss
 GO
 
 SET ANSI_NULLS ON
@@ -29,11 +29,10 @@ GO
 
 
 
-table 2: [Windowss].[dbo].[Company_Profile_Approved]
-USE [Windowss]
-GO
+table 2: Company_Profile_Approved
 
-/****** Object:  Table [dbo].[Company_Profile_Approved]    Script Date: 8/2/2022 04:45:21 ******/
+USE Windowss
+GO
 SET ANSI_NULLS ON
 GO
 
